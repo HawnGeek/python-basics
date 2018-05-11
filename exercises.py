@@ -12,29 +12,56 @@ print(greeting); #this should print 'Hello Prepster'
 #1 Variables with a String value
 #Declare variables named first_name, last_name, birth_place, hobby, role_model, famous_quote, fav_president, fav_food, fav_color, fav_song
 
+first_name = 'Eric'
+print(first_name)
+last_name = 'Daley'
+print(last_name)
+birth_place = 'Honolulu'
+print(birth_place)
+hobby = 'Cooking'
+print(hobby)
+role_model = 'My Dad'
+print(role_model)
+
 #Assign your own string values to each variable and print each variable.
 
 
 #2 String Concatenation
 #Declare a variable named full_name and concatenate first_name and last_name. Print the full_name variable.
 
+full_name = first_name + ' ' + last_name
+print(full_name)
 
 #Declare a variable named intro that creates the following sentence:
 #'Hello, my name is x and I was born in y.' Where x is full_name and y is birth_place. Print the intro variable.
 
+intro = 'Hello, my name is ' + full_name + ' and I was born in '+ birth_place + '.'
+print(intro)
 
 #Declare a variable named about_me that creates the following sentence:
 #'My hobby is x, my favorite song is y, and I like to eat z.' Where x is hobby, y is fav_song and z is fav_food. Print the about_me variable.
+
+about_me = 'My hobby is ' + hobby + ',' + 'my favorite song is'
+print(about_me)
 
 
 #3 Spacing with tabs and newlines
 #Declare a variable named my_hero that the following sentence using a tab:
 #'My hero is x and his famous quote is y.' Where x is role_model and y is famous_quote. Print the my_hero variable.
 
+role_model = 'Popeye'
+famous_quote = 'Life is a banquet and most poor suckers are starving to death'
+my_hero = 'My hero is ' + role_model + ' and his famous quote is ' + famous_quote
+print(my_hero)
 
 #Declare a variable named my_favs that creates the following sentence and returns a new line after each numbered item. 
 #'This is what I like: 1. hobby 2. fav_color 3. fav_song
 #Print the my_favs variable.
+
+fav_color = 'blue'
+fav_song = 'Leather and Lace'
+my_favs = 'This is what I like: ' + '\n1.' + hobby + '\n2.' + fav_color + '\n3.' + fav_song
+print(my_favs)
 
 
 #4 Variables with a Number value
@@ -42,31 +69,68 @@ print(greeting); #this should print 'Hello Prepster'
 
 #Assign your own number values to each variable and print each variable.
 
+age = 42
+print(age)
+weight = 340
+print(weight)
+shoe_size = 11
+print(shoe_size)
+fav_number = 8
+print(fav_number)
+yen_rate = 0.0091
+print(yen_rate)
+bitcoin_value = 8940
+print(bitcoin_value)
+todays_temperature = 84
+print(todays_temperature)
+hawaii_popuation = 1428000
+print(hawaii_popuation)
+countries_traveled = 4
+print(countries_traveled)
+number_of_siblings = 1
+print(number_of_siblings)
+
 
 #5 Number as Strings Concatenation
 #Declare a variable named self_intro that creates the following sentence:
 #'Aloha, my name is x and I am y years old and my shoe size is z.' Where x is full_name, y is age and z is shoe_size. Print the self_intro variable.
 
+self_intro = 'Aloha, my name is ' + full_name + 'and I am ' + str(age) + ' years old and my shoe size is ' + str(shoe_size) + '.'
+print(self_intro)
 
 #Declare a variable named market_update that creates the following sentence:
 #"Today's bitcoin value is x and the yen exchange rate is y." Where x is bitcoin_value and y is yen_rate. Print the market_update variable.
 
+market_update = "Today's bitcoin value is " + str(bitcoin_value) + " and the yen exchange rate is " + str(yen_rate) + "."
+print(market_update)
 
 #Declare a variable named about_hawaii that creates the following sentence:
 #"Did you know that Hawaii's population is x and the average temperatue is y?" Where x is hawaii_population and y is todays_temperature. Print the about_hawaii variable.
 
+about_hawaii = "Did you know that Hawaii's population is " + str(hawaii_popuation) + 'and the average temperature is ' + str(todays_temperature) + '.'
+print(about_hawaii) 
 
 #6 Variables with a List value
 #Declare a variable named fab_five and assign it a list containing five of your all time favorite snacks. Print the fab_five variable.
 
+fab_five = ['snickers', 'twix', 'goldfish', 'popcorn', 'salsa']
+print(fab_five)
 
 #Declare a variable named plate_lunch and assign it a list containing five of your favorite lunch items. Print the plate_lunch variable.
 
+plate_lunch = ['teri beef', 'korean chicken', 'hotdog', 'hamburger steak', 'shrimp tempura']
+print(plate_lunch)
 
 #Declare a variable named ice_cream and assign it a list containing three of your favorite ice cream flavors. Print the ice_cream variable.
 
+ice_cream = ['rocky road', 'macadamia nut', 'jamocha almond fudge', 'cherries garcia']
+print(ice_cream)
+
 
 #Declare a variable named west_siiiiide and assign it a list containing states found on the west coast of the US. Print the west_siiiiide variable.
+
+west_siiiiide = ['califonia', 'arizona', 'new mexico']
+print(west_siiiiide)
 
 
 #Declare a variable named mega_millions and assign it a list containing the Mega Millions Lottery results for May, 4, 2018
