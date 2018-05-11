@@ -141,9 +141,15 @@ print(mega_millions)
 
 #Declare a variable named hamajang and assign it a list containing six different data types. Print the hamajang variable.
 
-hamajang =  ['string',8,]
+#hamajang =  ['string',8,{'name': 'Eric'},(BIcruchbar), boolean=true]
+#print(hamajang)
 
 #Declare a variable named dynamic_duos and assign it a list containing 3 lists, with each list containing items that pairs well with each other. Print the dynamic_duos variable.
+
+dynamic_duos = [['black','white'],['peanut butter','jelly'],['batman','robin']]
+print(dynamic_duos)
+
+
 
 #Print the following:
 #Gin
